@@ -8,13 +8,13 @@ public class Ex3 {
         System.out.println("Введите пятизначное число");
         int x;
         x = num.nextInt();
-        if (x/10000 == x%10 && x>=10000 && x<100000) {
+        if (x/10000 == x%10 && x/1000%10 == x%100/10) {
             System.out.println ("Это палиндром");
         }
         else if (x < 10000) {
             System.out.println("Введите пятизначное число");
         }
-        else if (x > 100000) {
+        else if (x >= 100000) {
             System.out.println("Введите пятизначное число");
         }
         else {
