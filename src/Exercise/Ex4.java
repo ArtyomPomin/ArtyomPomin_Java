@@ -25,7 +25,7 @@ public class Ex4 {
         System.out.println("Первый корень X = " + x1);
 
         double x2 = (-b - sqrt(D)) / 2*a;
-        System.out.println("Первый корень X = " + x2);
+        System.out.println("Второй корень X = " + x2);
 
     }
 
