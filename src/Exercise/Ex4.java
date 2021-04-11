@@ -4,17 +4,14 @@ import static java.lang.Math.*;
 
 public class Ex4 {
     public static void main(String[] args) {
-        Scanner num1 = new Scanner(System.in);
+        Scanner num = new Scanner(System.in);
+
         System.out.println("Введите число a ");
-        double a = num1.nextInt();
-
-        Scanner num2 = new Scanner(System.in);
+        double a = num.nextInt();
         System.out.println("Введите число b ");
-        double b = num2.nextInt();
-
-        Scanner num3 = new Scanner(System.in);
+        double b = num.nextInt();
         System.out.println("Введите число c ");
-        double c = num3.nextInt();
+        double c = num.nextInt();
 
         double D = pow(b, 2) - 4 * a * c;
 
