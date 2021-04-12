@@ -1,5 +1,7 @@
 package Exercise;
 
+//упражнение №6
+
 public class Dragon {
     static Dragon drogo = new Dragon("Дрого", 64);
     static Dragon reigal = new Dragon("Рейгаль", 62 );
