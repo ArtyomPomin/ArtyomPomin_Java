@@ -8,7 +8,8 @@ public class Ex14 {
         for (float v : arr) {
             sum = sum + v;
         }
-        float res = sum / arr.length;
+        float res;
+        res = sum / arr.length;
         System.out.println("Средняя по больнице = " + res);
     }
 }
