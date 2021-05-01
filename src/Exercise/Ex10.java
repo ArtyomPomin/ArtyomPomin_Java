@@ -6,25 +6,25 @@ import java.util.Scanner;
 
 public class Ex10 {
     public static void main(String[] args) {
-        int a, b; // длина и ширина отверстия
-        int a1, b1, c; // длина, ширина, высота кирпича
+        int l, w; // длина(l) и ширина(w) отверстия
+        int lB, wB, hB; // длина(lB), ширина(wB), высота(hB) кирпича
 
         Scanner num = new Scanner (System.in);
         System.out.println("Введите размеры отверстия");
         System.out.println("Введите длину отверстия");
-        a = num.nextInt();
+        l = num.nextInt();
         System.out.println("Введите ширину отверстия");
-        b = num.nextInt();
+        w = num.nextInt();
 
         System.out.println("Введите размеры кирпича");
         System.out.println("Введите длину кирпича");
-        a1 = num.nextInt();
+        lB = num.nextInt();
         System.out.println("Введите ширину кирпича");
-        b1 = num.nextInt();
+        wB = num.nextInt();
         System.out.println("Введите высоту кирпича");
-        c = num.nextInt();
+        hB = num.nextInt();
 
-        if (a>=a1 & b>=b1 || a>=a1 & b>=c || a>=b1 & b>=a1 || a>=b1 & b>=c || a>=c & b>=a1 || a>=c & b>=b1) {
+        if (l>=lB & w>=wB || l>=lB & w>=hB || l>=wB & w>=lB || l>=wB & w>=hB || l>=hB & w>=lB || l>=hB & w>=wB) {
             System.out.println("Кирпич подходит под отверстие");
         }
         else {
