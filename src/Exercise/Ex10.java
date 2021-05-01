@@ -24,7 +24,7 @@ public class Ex10 {
         System.out.println("Введите высоту кирпича");
         hB = num.nextInt();
 
-        if (l>=lB & w>=wB || l>=lB & w>=hB || l>=wB & w>=lB || l>=wB & w>=hB || l>=hB & w>=lB || l>=hB & w>=wB) {
+        if (l>=lB & w>=wB | l>=lB & w>=hB | l>=wB & w>=lB | l>=wB & w>=hB | l>=hB & w>=lB | l>=hB & w>=wB) {
             System.out.println("Кирпич подходит под отверстие");
         }
         else {
