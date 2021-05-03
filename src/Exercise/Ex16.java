@@ -1,4 +1,5 @@
 package Exercise;
+
 import java.util.Scanner;
 
 //Анализ креативности текста
@@ -13,10 +14,10 @@ public class Ex16 {
         s = input.nextLine();
 
         for (int i = 0; i < s.length(); i++) {
-           if (s.charAt(i) !=',' & s.charAt(i) !='.' & s.charAt(i) !='!' & s.charAt(i) !='?' & s.charAt(i) !=':' & s.charAt(i) !=';' & s.charAt(i) !=' ' & s.charAt(i) !='(' & s.charAt(i) !=')') {
-            count++;
+            if (s.charAt(i) != ',' && s.charAt(i) != '.' && s.charAt(i) != '!' && s.charAt(i) != '?' && s.charAt(i) != ':' && s.charAt(i) != ';' && s.charAt(i) != ' ' && s.charAt(i) != '(' && s.charAt(i) != ')') {
+                count++;
             }
         }
-        System.out.println("количество букв в тексте: " +count);
+        System.out.println("количество букв в тексте: " + count);
     }
 }
