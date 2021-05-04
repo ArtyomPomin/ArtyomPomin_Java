@@ -32,7 +32,15 @@ public class Ex16 {
         System.out.println("количество букв в тексте: " + numLetter);
 
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == ' ' || s.charAt(i) == '.') {
+            if (s.charAt(i) == ',' ||
+                    s.charAt(i) == '.' ||
+                    s.charAt(i) == '!' ||
+                    s.charAt(i) == '?' ||
+                    s.charAt(i) == ':' ||
+                    s.charAt(i) == ';' ||
+                    s.charAt(i) == ' ' ||
+                    s.charAt(i) == '(' ||
+                    s.charAt(i) == ')') {
                 foundDiv = true;
                 foundChar = false;
             } else {
