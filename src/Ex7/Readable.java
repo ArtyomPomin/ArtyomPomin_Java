@@ -1,5 +1,5 @@
 package Ex7;
 
-public interface News {
+public interface Readable {
     public void readNews();
 }

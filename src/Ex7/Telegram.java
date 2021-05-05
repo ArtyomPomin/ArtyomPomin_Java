@@ -1,6 +1,6 @@
 package Ex7;
 
-public class Telegram extends Messenger implements Image, News {
+public class Telegram extends Messenger implements Sentable, Readable {
     public void readNews() {
         System.out.println("Читаю новости в Телеграм");
     }

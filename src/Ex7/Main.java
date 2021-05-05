@@ -4,13 +4,13 @@ package Ex7;
 
 public class Main {
     public static void main(String[] args) {
-        Image image = new Instagram();
+        Sentable image = new Instagram();
         image.sentImage();
-        News comment = new Vkontakte();
+        Readable comment = new Vkontakte();
         comment.readNews();
-        Image image1 = new Telegram();
+        Sentable image1 = new Telegram();
         image1.sentImage();
-        News comment1 = new Telegram();
+        Readable comment1 = new Telegram();
         comment1.readNews();
     }
 }

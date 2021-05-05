@@ -1,5 +1,5 @@
 package Ex7;
 
-public interface Image {
+public interface Sentable {
     public void sentImage();
 }
